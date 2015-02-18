@@ -23,8 +23,6 @@ Supports two basic calls.
 - eg. `renote://get?x-success={{drafts4://create?text=[[renote]]}}`
 
 
-******
-
 # Credits
 
 Having a decent functional URL Scheme was inspired from Greg Pierce, the creator of the excellent [Drafts](http://agiletortoise.com) app. 
