@@ -2,7 +2,7 @@ RENOTE URL Scheme
 ================
 
 Fully supports `X-Callback-URL` protocol.
-Supports two basic calls.
+Supports two basic calls; they are not comprehensive, but enough for the purpose of the app.
 
 1. `new`: Adds a new note
 2. `get`: Opens up RENOTE app, sends a URL-encoded note text after the user selects a Note. Requires `x-success` parameter.
@@ -25,4 +25,4 @@ Supports two basic calls.
 
 # Credits
 
-Having a decent functional URL Scheme was inspired from Greg Pierce, the creator of the excellent [Drafts](http://agiletortoise.com) app. 
+Having a decent functional URL Scheme was inspired from Greg Pierce, the creator of the excellent [Drafts](http://agiletortoise.com) app and [x-callback-url](http://x-callback-url.com) protocol.
