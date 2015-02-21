@@ -31,10 +31,10 @@ This URL should be used to *get* a note text into another app. Opens RENOTE in s
 
 Variables found in the custom action URLs are replaced with URL encoded strings:
 
-- **`[[note]]`**: Entire text typed within the editing space.
-- **`[[title]]`**: Top line. If whole text is a single line, then the first 30 characters are returned.
-- **`[[text]]`**: Text beyond the Title. If the whole text is a single line (title), then this will return the whole text.
-- **`[[filename]]`**: Creates a filename from the text. A valid fileame is created from the top line. If theres no top-line, the first valid 55 characters are sanitized and appended with a `.txt` extension.
+- `[[note]]`: Entire text typed within the editing space.
+- `[[title]]`: Top line. If whole text is a single line, then the first 30 characters are returned.
+- `[[text]]`: Text beyond the Title. If the whole text is a single line (title), then this will return the whole text.
+- `[[filename]]`: Creates a filename from the text. A valid fileame is created from the top line. If theres no top-line, the first valid 55 characters are sanitized and appended with a `.txt` extension.
 - eg: `drafts4://create?text=[[note]]`. Where note is replaced with the entire text.
 
 # Credits
