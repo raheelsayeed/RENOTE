@@ -25,6 +25,8 @@ This URL should be used to *get* a note text into another app. Opens RENOTE in s
 - Note text is URL Encoded and requires to be decoded at the receiver's end.
 - eg. `renote://x-callback-url/get?x-success={{drafts4://create}}&x-cancel=drafts4:`
 
+------
+
 ### Variables – Custom Action URLs
 
 Variables found in the custom action URLs are replaced with URL encoded strings:
@@ -33,7 +35,7 @@ Variables found in the custom action URLs are replaced with URL encoded strings:
 - **`[[title]]`**: Top line. If whole text is a single line, then the first 30 characters are returned.
 - **`[[text]]`**: Text beyond the Title. If the whole text is a single line (title), then this will return the whole text.
 - **`[[filename]]`**: Creates a filename from the text. A valid fileame is created from the top line. If theres no top-line, the first valid 55 characters are sanitized and appended with a `.txt` extension.
-
+- eg: `drafts4://create?text=[[note]]`. Where note is replaced with the entire text.
 
 # Credits
 
