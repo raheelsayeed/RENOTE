@@ -17,7 +17,7 @@ Supports two basic calls; they are not comprehensive, but enough for the purpose
 
 ### /get
 
-This URL should be used to *get* a note text into another app. Opens RENOTE in selection mode and sends a *User-selected* note text via `x-callback-url` protocol. `X-Callback-URL` is required for this to work. `x-success`. 
+This action should be used to *get* a note text into another app. Opens RENOTE in selection mode and sends a *User-selected* note text via `x-callback-url` protocol. `X-Callback-URL` is required for this to work. `x-success`. 
 
 - `x-success` should have a target URL that receives the text.
 - RENOTE adds parameter `text=` and appends the `text-to-add` to x-success when user selects the Note and taps **Send**.
