@@ -12,6 +12,7 @@ Supports two basic calls; they are not comprehensive, but enough for the purpose
 - Adds a new note in RENOTE
 - required parameters: 
    - `text`: text to add to renote. 
+- `x-callback-url` is not a requirement.
 - eg: `renote://x-callback-url/new?text=TEXT-TO-ADD`
 
 
